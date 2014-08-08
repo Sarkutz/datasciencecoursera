@@ -41,7 +41,7 @@ Get the source from GitHub, and not from the [RStudio website].
  - Desktop: The Desktop version is installed in
    `/usr/local/lib/rstudio-server/bin`.  Run `rstudio` to start RStudio.
  
-    ![RStudio Desktop Client](rserver.png)
+    ![RStudio Desktop Client](rstudio.png)
 
 
 [Rstudio Website]: http://www.rstudio.com/products/rstudio/download/
