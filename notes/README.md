@@ -7,7 +7,7 @@ Use the `r-base` package (Ubuntu)-
 
     sudo apt-get install r-base r-base-dev
 
-Ubuntu 12.04 has version 2.14.1, which is sufficient for RStudio.
+Ubuntu 12.04 has version 2.14.1 of R, which is sufficient for RStudio.
 
 ## RStudio Installation
 
@@ -36,12 +36,12 @@ Get the source from GitHub, and not from the [RStudio website].
     The server is installed in `/usr/local/lib/rstudio-server/bin`.
     Run `rserver` to start the server.
 
-    ![RStudio over Web][rserver.png]
+    ![RStudio over Web](rserver.png)
 
  - Desktop: The Desktop version is installed in
    `/usr/local/lib/rstudio-server/bin`.  Run `rstudio` to start RStudio.
  
-    ![RStudio Desktop Client][rserver.png]
+    ![RStudio Desktop Client](rserver.png)
 
 
-Rstudio Website: http://www.rstudio.com/products/rstudio/download/
+[Rstudio Website]: http://www.rstudio.com/products/rstudio/download/
