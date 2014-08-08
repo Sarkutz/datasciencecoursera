@@ -24,17 +24,24 @@ Get the source from GitHub, and not from the [RStudio website].
 
       sudo make install
 
-- Execution: Create the following directories for the server:
+- Execution:
+
+  - Server: Create the following directories for the server:
 
     - `mkdir -p /var/run/rstudio-server`
     - `mkdir -p /var/lock/rstudio-server`
     - `mkdir -p /var/log/rstudio-server`
     - `mkdir -p /var/lib/rstudio-server`
 
-  The server is installed in `/usr/local/lib/rstudio-server/bin`.
-  Run `rserver` to start the server.
+    The server is installed in `/usr/local/lib/rstudio-server/bin`.
+    Run `rserver` to start the server.
 
-  ![rserver][rserver.png]
+    ![RStudio over Web][rserver.png]
+
+ - Desktop: The Desktop version is installed in
+   `/usr/local/lib/rstudio-server/bin`.  Run `rstudio` to start RStudio.
+ 
+    ![RStudio Desktop Client][rserver.png]
 
 
 Rstudio Website: http://www.rstudio.com/products/rstudio/download/
